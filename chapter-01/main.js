@@ -1,3 +1,8 @@
+
+function playFor(aPerformance) {
+  return plays[aPerformance.playID];
+}
+
 function amountFor(aPerformance, play) {
   let result = 0;
   switch (play.type) {
